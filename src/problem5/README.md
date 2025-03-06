@@ -176,4 +176,12 @@ yarn lint:fix # Fix linting issue
 docker compose --env-file .env -f docker-compose.yaml up postgres
 ```
 
-## Technical Debt
+## Improvement
+
+> Improvements are techniques that can be made in order to improve the application but unable to do due to time limitation
+
+- Logging & Tracing (ELK)
+- Monitoring (Prometheus, Grafana)
+- Kubernetes deployment & Horizontal scaling
+- CI/CD pipeline
+- Request caching
